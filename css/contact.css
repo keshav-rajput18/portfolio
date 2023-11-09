@@ -1,0 +1,17 @@
+/* Contact page styles */
+#contact {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#contact a {
+    color: #fff; /* White color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #dc5e4a; /* Change to your desired hover color for links */
+}

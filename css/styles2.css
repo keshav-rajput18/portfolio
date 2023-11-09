@@ -1,0 +1,47 @@
+#projects {
+    background-color: #333; /* Dark grey color */
+    color: #fff; /* White text color for better readability */
+    padding: 20px; /* Add padding to the section for spacing */
+}
+/* Project page styles */
+#projects {
+     /* Grey background color */
+    color: #7b7a7a; /* Black text color */
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#projects .project {
+    background-color: #f8f8f8; /* Background color for individual projects */
+}
+
+#projects a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+#projects a:hover {
+    color: #0056b3; /* Change to your desired hover color for links */
+}
+/* Add this CSS code to your stylesheet */
+a[target="_blank"] {
+    text-decoration: none; /* Remove underlines from links */
+    background-color: #007bff60; /* Default background color for the button (a shade of blue) */
+    color: #fff; /* Text color (white) */
+    padding: 10px 20px; /* Adjust padding as needed for the button size */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth transition on background color */
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  a[target="_blank"]:hover {
+    background-color: #b4b3b4; /* Hover background color (a slightly darker blue) */
+  }
+  
+  a[target="_blank"]:active {
+    background-color: #939193; /* Background color when the button is clicked (a slightly darker blue) */
+  }
+  
